@@ -1,0 +1,57 @@
+name: rick_and_morty
+description: Rick and Morty client
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: 1.0.2
+
+  retrofit: 4.0.1
+  logger: 1.4.0
+  
+  isar: 3.1.0+1
+  isar_flutter_libs: 3.1.0+1
+
+  mobx: 2.2.0
+  flutter_mobx: 2.0.6+5
+
+  get_it: 7.6.0
+  injectable: 2.1.2
+
+  freezed_annotation: 2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: 2.0.0
+
+  build_runner: 2.4.6
+
+  retrofit_generator: 7.0.7
+  json_serializable: 6.7.1
+
+  isar_generator: 3.1.0+1
+
+  mobx_codegen: 2.3.0
+
+  injectable_generator: 2.1.6
+  
+  freezed: 2.3.5
+
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: SF Pro
+      fonts:
+        - asset: assets/fonts/SF-Pro.ttf
