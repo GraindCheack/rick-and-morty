@@ -1,0 +1,15 @@
+{
+  "[dart]": {
+    "editor.rulers": [
+      120
+    ],
+  },
+  // Automatically generated files nesting
+  "explorer.fileNesting.patterns": {
+    "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "dart.lineLength": 120,
+  "github-enterprise.uri": "https://git.jetbrains.space",
+}
